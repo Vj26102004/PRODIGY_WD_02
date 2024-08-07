@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #df2121;
+}
+
+.stopwatch {
+    text-align: center;
+    background-color: #fff;
+    padding: 100px;
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.display {
+    font-size: 3em;
+    margin-bottom: 100px;
+}
+
+.controls {
+    margin-bottom: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 0 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+    font-size: 0.9em;
+}
